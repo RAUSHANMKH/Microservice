@@ -1,0 +1,14 @@
+package com.bluegem.client;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+@FeignClient(name="MICROSERVICE1")
+public interface MICROSERVICE_m11 {
+	
+	
+	@GetMapping(value = "/hello/{name}")
+	public String invokeService(@PathVariable("name") String name); 
+
+}

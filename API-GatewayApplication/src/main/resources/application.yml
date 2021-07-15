@@ -1,0 +1,8 @@
+server:
+  port: 7777
+spring:  application:    name: API-GATEWAY
+    
+zuul:  prefix: /api
+  routes:    m1:
+      path: /m1/**
+      service-id: MICROSERVICE1

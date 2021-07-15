@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring-cloud-ribbon-LoadBalancing"/>
+<aop-project name="1-Service-Registry-Eureka-Server"/>
+<aop-project name="OrderServiceProviderApplication-2"/>
+<aop-project name="spring_cloud_Hystrick_Server"/>
+<aop-project name="spring-cloud-m2"/>
+<aop-project name="spring-cloud-m1"/>
+</aop-reference-model>
